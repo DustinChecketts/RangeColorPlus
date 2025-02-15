@@ -3,6 +3,6 @@
 ## Author: StormtrooperTK421
 ## Version: 1.0
 ## Notes: Highlights out-of-range action buttons red.
-## SavedVariables: 
+## SavedVariablesPerCharacter: REDRANGER_COLOR
 
 RedRanger.lua
