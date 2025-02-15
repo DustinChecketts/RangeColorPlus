@@ -42,6 +42,6 @@ SlashCmdList["REDRANGER"] = function(msg)
         RedRangerDB.r, RedRangerDB.g, RedRangerDB.b = r, g, b
         print("RedRanger color updated: ", r, g, b)
     else
-        print("Usage: /rr <R> <G> <B> (values from 0-255)")
+        print("Adjust color using: /rr <R> <G> <B> (values from 0-255)")
     end
 end
