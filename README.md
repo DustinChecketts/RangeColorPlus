@@ -4,10 +4,13 @@ A World of Warcraft: Classic addon that highlights the entire skill button in th
 RangeColorPlus is extremely lightweight and simply enhances the default out of range indicator in the action bar (coloring the hotkey number red). Instead, it highlights the entire skill icon so it's much easier to see and customizable using RGBA.
 
 <h4>Features</h4>
-- Minimalist addon that retains the design of the default Blizzard UI.
-- Plug and play with no setup required.
-- Customize the RGBA color by typing /rcp and entering RGBA values.
-- Saves color varaibles by character.
+- Minimalist addon that retains the design of the default Blizzard UI
+
+- Plug and play with no setup required
+  
+- Customize the RGBA color by typing /rcp and entering RGBA values
+  
+- Saves color varaibles by character
 
 <h4>Acknowledgements</h4>
 - [RangeColors](https://www.curseforge.com/wow/addons/rangecolors) by [yarko_wow](https://www.curseforge.com/members/yarko_wow/projects)
