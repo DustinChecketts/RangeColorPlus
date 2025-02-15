@@ -57,6 +57,6 @@ SlashCmdList["REDRANGER"] = function(msg)
     local rInt = math.floor(RedRangerDB.r * 255)
     local gInt = math.floor(RedRangerDB.g * 255)
     local bInt = math.floor(RedRangerDB.b * 255)
-    print("RedRanger current color: R=",rInt, " G=",gInt, " B=",bInt, " A=",RedRangerDB.a)
-    print("Change color with /rr <R> <G> <B> [A] (RGB values 0 - 255, A (optional) 0.0 - 1.0)")
+    print("RedRanger RGBA color: ",rInt," ",gInt," ",bInt," ",RedRangerDB.a)
+    print("Change color with /rr <R> <G> <B> [A] (RGB values 0 - 255, A [optional] 0.0 - 1.0)")
 end
