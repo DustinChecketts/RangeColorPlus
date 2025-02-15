@@ -11,7 +11,7 @@ RedRanger is extremely lightweight and simply enhances the default out of range 
 <h4>Acknowledgements</h4>
 - [RangeColors](https://www.curseforge.com/wow/addons/rangecolors) by [yarko_wow](https://www.curseforge.com/members/yarko_wow/projects)
 
-Known Issues / To-Do
-Use the color-picker to choose a color and transparency in addition to the chat command.
+<h4>Known Issues / To-Do</h4>
+- Use the color-picker to choose a color and transparency in addition to the chat command.
 
 Updated, uploaded, and maintained (at least for now) by [StormtrooperTK421](https://discordapp.com/users/237746068844969994) on [GitHub](https://github.com/DustinChecketts/RedRanger). Please submit issues and I'll do my best to troubleshoot, replicate, and resolve issues as my limited abilities allow.
