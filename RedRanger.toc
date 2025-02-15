@@ -1,8 +1,0 @@
-## Interface: 11506
-## Title: RedRanger
-## Author: StormtrooperTK421
-## Version: 1.0
-## Notes: Highlights out-of-range action buttons red.
-## SavedVariablesPerCharacter: REDRANGER_COLOR
-
-RedRanger.lua
