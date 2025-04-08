@@ -1,5 +1,5 @@
 # RangeColorPlus
-A World of Warcraft: Classic addon that highlights the entire skill button in the action bar when a spell is out-of-range. Color fully customizable using RGBA.
+A World of Warcraft: Classic (Anniversary, Seasons, Hardcore, Era) addon that highlights the entire skill button in the action bar when a spell is out-of-range. Color fully customizable using RGBA.
 
 RangeColorPlus is extremely lightweight and simply enhances the default out of range indicator in the action bar (coloring the hotkey number red). Instead, it highlights the entire skill icon so it's much easier to see and customizable using RGBA.
 
