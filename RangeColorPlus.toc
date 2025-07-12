@@ -1,4 +1,4 @@
-## Interface: 11507,50500
+## Interface: 11507, 50500
 ## Title: RangeColorPlus
 ## Author: StormtrooperTK421
 ## Version: 1.0.2
