@@ -5,27 +5,26 @@ end
 
 local function UpdateActionButtonRange(self)
     if self:IsForbidden() then return end
-    
+
     local action = self.action
     if not action or action == 0 then return end
-    
+
     local isUsable, notEnoughMana = IsUsableAction(action)
     local inRange = IsActionInRange(action)
-    
+
     if inRange == false then
-        self.icon:SetVertexColor(RANGECOLORPLUS.r, RANGECOLORPLUS.g, RANGECOLORPLUS.b, RANGECOLORPLUS.a) -- Use user-selected color
+        self.icon:SetVertexColor(RANGECOLORPLUS.r, RANGECOLORPLUS.g, RANGECOLORPLUS.b, RANGECOLORPLUS.a)
     else
-        self.icon:SetVertexColor(1, 1, 1, 1) -- Normal color when usable and in range
+        self.icon:SetVertexColor(1, 1, 1, 1)
     end
 end
 
+-- Hook once into the main updater (no per-button hooks)
+local hookedOnce = false
 local function HookActionButtons()
-    for i = 1, 120 do -- Covers all action bar slots
-        local button = _G["ActionButton" .. i] or _G["MultiBarBottomLeftButton" .. i] or _G["MultiBarBottomRightButton" .. i] or _G["MultiBarRightButton" .. i] or _G["MultiBarLeftButton" .. i]
-        if button and button.icon then
-            hooksecurefunc("ActionButton_OnUpdate", function(self) UpdateActionButtonRange(self) end)
-        end
-    end
+    if hookedOnce then return end
+    hooksecurefunc("ActionButton_OnUpdate", UpdateActionButtonRange)
+    hookedOnce = true
 end
 
 local frame = CreateFrame("Frame")
@@ -42,7 +41,7 @@ frame:SetScript("OnEvent", function(self, event, arg1)
         HookActionButtons()
     end
 end)
- 
+
 -- Slash command to change color
 SLASH_RANGECOLORPLUS1 = "/rcp"
 SlashCmdList["RANGECOLORPLUS"] = function(msg)
@@ -53,7 +52,7 @@ SlashCmdList["RANGECOLORPLUS"] = function(msg)
         RANGECOLORPLUS.r, RANGECOLORPLUS.g, RANGECOLORPLUS.b, RANGECOLORPLUS.a = rDec, gDec, bDec, aDec
         print("RangeColorPlus color updated: ", tonumber(r), tonumber(g), tonumber(b), aDec)
     end
-    
+
     local rInt = math.floor(RANGECOLORPLUS.r * 255)
     local gInt = math.floor(RANGECOLORPLUS.g * 255)
     local bInt = math.floor(RANGECOLORPLUS.b * 255)
