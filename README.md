@@ -16,6 +16,7 @@ RangeColorPlus is extremely lightweight and simply enhances the default out of r
 <h4>Acknowledgements</h4>
 
 - [RangeColors](https://www.curseforge.com/wow/addons/rangecolors) by [yarko_wow](https://www.curseforge.com/members/yarko_wow/projects)
+- Hook Optimization by [XyzKangUI](https://github.com/XyzKangUI)
 
 <h4>Known Issues / To-Do</h4>
 
