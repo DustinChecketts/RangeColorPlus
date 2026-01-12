@@ -1,9 +1,8 @@
-## Interface: 11507, 50500
+## Interface: 20505, 11507, 50500
 ## Title: RangeColorPlus
 ## Author: StormtrooperTK421
-## Version: 1.0.3
+## Version: 1.1.1
 ## Notes: Highlights out-of-range action buttons.
 ## SavedVariablesPerCharacter: RANGECOLORPLUS
 
 RangeColorPlus.lua
-
