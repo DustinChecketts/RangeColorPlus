@@ -3,6 +3,7 @@
 ## Author: StormtrooperTK421
 ## Version: 1.1.1
 ## Notes: Highlights out-of-range action buttons.
+## X-Curse-Project-ID: 1200727
 ## SavedVariablesPerCharacter: RANGECOLORPLUS
 
 RangeColorPlus.lua
