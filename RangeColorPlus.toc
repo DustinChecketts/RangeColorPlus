@@ -1,7 +1,7 @@
-## Interface: 20505, 11507, 50500
+## Interface: 20506, 11507, 50500
 ## Title: RangeColorPlus
 ## Author: StormtrooperTK421
-## Version: 1.1.1
+## Version: 1.1.2
 ## Notes: Highlights out-of-range action buttons.
 ## X-Curse-Project-ID: 1200727
 ## SavedVariablesPerCharacter: RANGECOLORPLUS
