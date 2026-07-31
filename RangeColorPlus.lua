@@ -3,7 +3,7 @@ RANGECOLORPLUS = RANGECOLORPLUS or { r = 0.85, g = 0, b = 0, a = 1.0 }
 
 local function RestoreDefaultColor(button)
     if not button or not button.icon then return end
-    button.icon:SetVertexColor(1, 1, 1, 1)
+    button.icon:SetVertexColor(60, 60, 60, 1)
 end
 
 local function ApplyColor(button, outOfRange)
